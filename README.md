@@ -9,7 +9,7 @@ The data I propose to visualize for my project is a sample of 200 Defensive Asyl
 Here is the [Key code for the full dataset, marked with what data I used in this dataset](https://drive.google.com/file/d/19RFlM9sRa9uE3c7HBLK_lRiWs6eF9c7U/view?usp=sharing)	
 
 Data Description:	
-This dataset is a sample of 200 cases that have processed through the United States immigration court system seeking defensive asylum in the last ~ 10 years (2010-2019). This dataset covers information about the case and their time in different parts of the immigration court process through data about their case proceedings, scheduled hearings and the judges that have heard their cases. Some variables that are of particular interested may be the DEC_CODE which represents the outcome of the case. 	
+This [dataset](https://gist.github.com/trueicesk8ter/4d284843bed8a1e318eac8fc672b53d4) is a sample of 200 cases that have processed through the United States immigration court system seeking defensive asylum in the last ~ 10 years (2010-2019). This dataset covers information about the case and their time in different parts of the immigration court process through data about their case proceedings, scheduled hearings and the judges that have heard their cases. Some variables that are of particular interested may be the DEC_CODE which represents the outcome of the case. 	
 
 ## Prototypes
 
@@ -35,9 +35,13 @@ The following tasks and questions will drive the visualization and interaction d
 For this project I have envisioned some different directions as seen below in my sketches.
 
 #### Applications for Asylum Cases Scatter Plot: Examining the relationship between the date asylum applications were received and the total number of cases and decision of the cases( * This sketch is realized and show above*)
+![image](https://user-images.githubusercontent.com/12132049/94341953-b488b400-ffdb-11ea-8478-947f481de6d3.png)
+
   * The data is visualized by creating a scatterplot where it shows the count of unique cases based on the date the asylum applications was received. This requires(ed) the used of aggregation function to count the total cases with the same application date. The categorical variable of "case decision" is depicted using color. The interactive part is demonstrated by hovering over each dot will show the total count of the cases. This helps to answer the question "What is the relationship between the overall case decision code and the asylum application code?".
 
 #### Varying Year Scatter Plot: Examining the relationship between date of entry to system, wait-time and decision of the case
+![image](https://user-images.githubusercontent.com/12132049/94341970-daae5400-ffdb-11ea-8f1a-50cd2b2d601c.png)
+
   * The data in this sketch requires the use of a basic scatterplot to show the date of entrance to the system and the time it takes to exit the system (wait time) and the decision of the case. In order to realize this sketch the variable "wait-time" must be calculated which is the difference in days between the date a case exited the system to when they entered the system. The basic outline of this sketch has a similar basic structure to the one already realized above for the application date and number of cases, however, the difficulty in producing this sketch will come in creating a drop-down menu that selects the specific year of the date of entry and the x-axis changes to show the 12 months in that year plotted. This sketch once realized would help to answer the questions around how the time in the system relates to when they entered the system. In addition, there is possibility to add another drop down menu to selected other variables to compare in a similar manner such as looking at the nationality and how long a case took to complete and what the decision of that code was. 
 
 
