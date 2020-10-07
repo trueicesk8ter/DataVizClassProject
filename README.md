@@ -52,7 +52,7 @@ One interaction sticks out at as being the best choice in this case: the use of 
 
 ### Week of 10/15-10/21
 * Learn how to add a cross filter to data (research).
-* Try and implement the brushing effect on our [main plot] (https://vizhub.com/trueicesk8ter/98b317412ae745c1b19209fdd5c254bc).
+* Try and implement the brushing effect on our [main plot](https://vizhub.com/trueicesk8ter/98b317412ae745c1b19209fdd5c254bc).
 
 ### Week of 10/22-10/28
 * Combine main plot with the three other display plots created during week 10/7-10/14 into a single display.
