@@ -24,9 +24,8 @@ The following tasks and questions will drive the visualization and interaction d
  * How long do cases take to complete the entire legal process?
  * What is the split in nationality for these cases?
  * Is there any relationship between nationality and how long cases take to complete the entire legal process?
- * What is the number of workload/cases per judge?	
  * Is there a relationship between custody of the individual and their time in the system? Do detained cases take less time?
- * What is the relationship between the overall case decision code and the asylum application code?
+ * What is the relationship between the overall case decision code and the asylum case wait time?
 
 ## Sketches
 For this project I have envisioned some different directions as seen below in my sketches.
