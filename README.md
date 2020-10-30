@@ -41,7 +41,9 @@ The following tasks and questions were what drove the visualization and interact
 
 ## Step 3: Final Visualization
 The final visualization can be found [here](https://vizhub.com/trueicesk8ter/e7f6582ae1f243c1be02bec204523c45)
-![image]("https://user-images.githubusercontent.com/12132049/97750314-eb645500-1ac6-11eb-8cc6-e3b3ec34911d.png")
+
+<img width="719" alt="FinalVisual" src="https://user-images.githubusercontent.com/12132049/97751670-0d5ed700-1ac9-11eb-9340-38613b9d7029.png">
+
 
 ### Highlights of Visualization
  
@@ -49,15 +51,16 @@ There are many aspects of this final visualization such as the ability to filter
 
 * The first highlight is the addition of 3 mini barplots that show more information about the selected data. 
 The first plot shows frequency of wait times for cases selected. The second shows the frequency by month the case entered the system. The final shows the frequency of cases by nationality. 
-![image]("https://user-images.githubusercontent.com/12132049/97748404-d4703380-1ac3-11eb-83d0-37843ec14741.PNG")
+<img width="708" alt="3MiniPlots" src="https://user-images.githubusercontent.com/12132049/97748404-d4703380-1ac3-11eb-83d0-37843ec14741.PNG">
+
 
 
 * The second highlight demonstrates what happens when there is no data for either the dropdown menu and or when an area is brushed and there is no data in that region. 
-![image]("https://user-images.githubusercontent.com/12132049/97748447-e225b900-1ac3-11eb-9159-26fa3bae400a.png")
-![image]("https://user-images.githubusercontent.com/12132049/97748454-e3ef7c80-1ac3-11eb-81fe-80cc6fd7dd9b.png")
+<img width="721" alt="NoData_Brushed_2" src="https://user-images.githubusercontent.com/12132049/97748447-e225b900-1ac3-11eb-9159-26fa3bae400a.png">
+<img width="793" alt="NoData_1" src="https://user-images.githubusercontent.com/12132049/97748454-e3ef7c80-1ac3-11eb-81fe-80cc6fd7dd9b.png">
 
 * The third and final highlight demonstrates what is my favorite part of this visualization which highlights in the color corresponding to the decision code that is hovered on the left hand side. Not only is the point in the main scatterplot highlighted, but in addition the bar that corresponds to the hovered data is highlighted in the 3 mini bar plots below. 
-![image]("https://user-images.githubusercontent.com/12132049/97748338-b276b100-1ac3-11eb-89d5-d226f518fdf2.png")
+<img width="791" alt="Hover_color" src="https://user-images.githubusercontent.com/12132049/97748338-b276b100-1ac3-11eb-89d5-d226f518fdf2.png">
 
 ## Future Work
  I was able to complete everything I hoped to, however there are a few things in the future I would like to change/add to make improve this visualization. 
