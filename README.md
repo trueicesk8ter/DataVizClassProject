@@ -25,7 +25,7 @@ First I created a proof of concept visualization for this data in the form of a 
 #### Varying Year Scatter Plot: Examining the relationship between date of entry to system, wait-time and decision of the case
 ![image](https://user-images.githubusercontent.com/12132049/94341970-daae5400-ffdb-11ea-8f1a-50cd2b2d601c.png)
 
-  * The data in this sketch requires the use of a basic scatterplot to show the date of entrance to the system and the time it takes to exit the system (wait time) and the decision of the case. In order to realize this sketch, the variable "wait-time" must be calculated which is the difference in days between the date a case exited the system to when they entered the system. The basic outline of this sketch has a similar basic structure to the one already realized above for the application date and number of cases. However, the difficulty in producing this sketch will come in creating a drop-down menu that selects the specific year of the date of entry and the x-axis changes to show the 12 months in that year plotted. This sketch once realized would help to answer the questions around how the time in the system relates to when they entered the system. In addition, there is possibility to add another drop down menu to select other variables to compare in a similar manner such as looking at the nationality and how long a case took to complete and what the decision of that code was. 
+  * The data in this sketch required the use of a basic scatterplot to show the date of entrance to the system and the time it took to exit the system (wait time) and the decision of the case. In order to realize this sketch, the variable "wait-time" had to be calculated which is the difference in days between the date a case exited the system to when they entered the system. The basic outline of this sketch had a similar basic structure to the realized above for the application date and number of cases. However, the difficulty in producing this sketch was adding a drop-down menu that selects the specific year of the date of entry and then changing the x-axis changes to show the 12 months in that year plotted. This sketch is realized in the final visualization shown below in step 3. 
 
 
 ## Step 2: Questions & Tasks to answer
@@ -45,10 +45,10 @@ The final visualization can be found [here](https://vizhub.com/trueicesk8ter/e7f
 
 ### Highlights of Visualization
  
-There are many aspects of this final visualization such as the ability to filter data by year (dropdown menu) or select a subset of the data to get a closer look at in the 3 miniplots (brushing effect). 
+There are many aspects of this final visualization such as the ability to filter data by year (dropdown menu) or select a subset of the data to get a closer look at in the 3 mini plots (brushing effect). 
 
 * The first highlight is the addition of 3 mini barplots that show more information about the selected data. 
-The first plot shows frequency of waittimes for cases selected. The second shows the frequency by month the case entered the system. The final shows the frequency of cases by nationality. 
+The first plot shows frequency of wait times for cases selected. The second shows the frequency by month the case entered the system. The final shows the frequency of cases by nationality. 
 [!image]("https://user-images.githubusercontent.com/12132049/97748404-d4703380-1ac3-11eb-83d0-37843ec14741.PNG")
 
 
@@ -56,10 +56,11 @@ The first plot shows frequency of waittimes for cases selected. The second shows
 [!image]("https://user-images.githubusercontent.com/12132049/97748447-e225b900-1ac3-11eb-9159-26fa3bae400a.png")
 [!image]("https://user-images.githubusercontent.com/12132049/97748454-e3ef7c80-1ac3-11eb-81fe-80cc6fd7dd9b.png")
 
-* The third and final highlight demontrates what is my favorite part of this visualization which highlights in the color corresponding to the decison code that is hoverd on the left hand side. Not only is the point in the main scatterplot highlighted, but in addition the bar that corresponds to the hovered data is highlighted in the 3 mini bar plots below. 
+* The third and final highlight demonstrates what is my favorite part of this visualization which highlights in the color corresponding to the decision code that is hovered on the left hand side. Not only is the point in the main scatterplot highlighted, but in addition the bar that corresponds to the hovered data is highlighted in the 3 mini bar plots below. 
 [!image]("https://user-images.githubusercontent.com/12132049/97748338-b276b100-1ac3-11eb-89d5-d226f518fdf2.png")
 
 ## Future Work
  I was able to complete everything I hoped to, however there are a few things in the future I would like to change/add to make improve this visualization. 
- * Add a 2D brushig effect to be able to brush in both the X and Y direction
- * Potnetially add more miniplots to the body that can show more information about the data 
+ * Add a 2D brushing effect to be able to brush in both the X and Y direction
+ * Potentially add more mini plots to the body that can show more information about the data
+
