@@ -4,10 +4,6 @@
 
 The data I used to visualize for my project is a sample of 200 defensive asylum cases as they progress through the immigration court system.	
 
-[Department of Justice: EOIR CASE Dataset](https://www.justice.gov/eoir/foia-library-0) (EOIR CASE-- Warning if you download its large!)	
-
-Here is the [Key code for the full dataset, marked with what data I used in this dataset](https://drive.google.com/file/d/19RFlM9sRa9uE3c7HBLK_lRiWs6eF9c7U/view?usp=sharing)	
-
 Data Description:	
 This [dataset](https://gist.github.com/trueicesk8ter/4d284843bed8a1e318eac8fc672b53d4) is a sample of 200 cases that have processed through the United States immigration court system seeking defensive asylum in the last 10 years (2010-2019). This dataset covers information about the case and their time in different parts of the immigration court process. Data includes information about their case proceedings, scheduled hearings and the judges that have heard their cases. One variable that is of particular interest is the DEC_CODE which represents the outcome of the case. 	
 
